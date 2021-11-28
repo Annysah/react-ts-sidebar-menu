@@ -10,17 +10,27 @@ import Chats from './pages/Chats';
 import Analytics from './pages/Analytics';
 
 
-const App = () => {
+const App: React.FunctionComponent = () => {
   return (
     <>
       <Router>
         <Sidebar />
         <Routes>
-          <Route path='/' element={Home()} />
-          <Route path='/team' element={Team()} />
-          <Route path='/tasks' element={Tasks()} />
-          <Route path='/chats' element={Chats()} />
-          <Route path='/analytics' element={Analytics()} />
+          <Route path='/'>
+            <Home />
+          </Route>
+          <Route path='/team'>
+            <Team />
+          </Route>
+          <Route path='/tasks'>
+            <Tasks />
+          </Route>
+          <Route path='/chats'>
+            <Chats />
+          </Route>
+          <Route path='/analytics'>
+            <Analytics />
+          </Route>
         </Routes>
       </Router> 
     </>

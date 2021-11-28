@@ -9,7 +9,7 @@ const HomeText = styled.div`
     height: 70vh;
 `
 
-const Home = () => {
+const Home: React.FunctionComponent = () => {
     return (
         <HomeText>Home</HomeText>
     )

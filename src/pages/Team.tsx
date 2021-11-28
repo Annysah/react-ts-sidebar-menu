@@ -9,7 +9,7 @@ const TeamText = styled.div`
     height: 70vh;
 `
 
-const Team = () => {
+const Team: React.FunctionComponent = () => {
     return (
         <TeamText>Team</TeamText>
     )

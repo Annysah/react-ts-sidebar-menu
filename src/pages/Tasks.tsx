@@ -9,7 +9,7 @@ const TaskText = styled.div`
     height: 70vh;
 `
 
-const Tasks = () => {
+const Tasks: React.FunctionComponent = () => {
     return (
         <TaskText>Tasks</TaskText>
     )

@@ -10,7 +10,7 @@ const ChatText = styled.div`
 `
 
 
-const Chats = () => {
+const Chats: React.FunctionComponent = () => {
     return (
         <ChatText>Chats</ChatText>
     )

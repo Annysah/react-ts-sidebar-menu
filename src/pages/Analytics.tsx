@@ -9,7 +9,7 @@ const AnalyticsText = styled.div`
     height: 70vh;
 `
 
-const Analytics = () => {
+const Analytics: React.FunctionComponent = () => {
     return (
         <AnalyticsText>Analytics</AnalyticsText>
     )

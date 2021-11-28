@@ -70,7 +70,7 @@ const MenuItemLinks = styled(Link)`
     }
 `
 
-const Sidebar = () => {
+const Sidebar: React.FunctionComponent = () => {
     const [close, setClose] = useState(false)
     const showSidebar = () => setClose(!close)
     return (
