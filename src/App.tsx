@@ -16,21 +16,11 @@ const App: React.FunctionComponent = () => {
       <Router>
         <Sidebar />
         <Routes>
-          <Route path='/'>
-            <Home />
-          </Route>
-          <Route path='/team'>
-            <Team />
-          </Route>
-          <Route path='/tasks'>
-            <Tasks />
-          </Route>
-          <Route path='/chats'>
-            <Chats />
-          </Route>
-          <Route path='/analytics'>
-            <Analytics />
-          </Route>
+          <Route path='/' element={<Home />} />
+          <Route path='/team' element={<Team />} />            
+          <Route path='/tasks' element={<Tasks />} />    
+          <Route path='/chats' element={<Chats />} />
+          <Route path='/analytics' element={<Analytics />} />
         </Routes>
       </Router> 
     </>
